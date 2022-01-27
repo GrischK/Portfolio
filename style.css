@@ -44,8 +44,8 @@ a{
     text-decoration: none;
 }
 
-nav a:hover{
-    font-weight:bold ;
+.nav_bold_link a:hover{
+    font-weight:bold;
     color: #F2BB05;
 }
 
