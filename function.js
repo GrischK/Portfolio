@@ -1,3 +1,9 @@
+window.addEventListener('scroll',() => {
+  console.log('Hello');
+});
+
+
+
 const progress_bars = document.
 querySelector('.progress')
 
