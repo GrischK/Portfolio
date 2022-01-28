@@ -1011,4 +1011,51 @@ footer a:hover{
         width: 300px;
         height: 300px;
     }
+
+    #experience_grid{
+        grid-template-rows: repeat(36, 25px);
+    }
+
+    #exp_block_1 {
+        grid-column: 3;
+    }
+
+    #exp_block_2 {
+        grid-column: 20;
+    }
+
+    #exp_block_3 {
+        grid-column: 3;
+        grid-row: 9;
+    }
+
+    #exp_block_4 {
+        grid-column: 20;
+        grid-row: 10;
+    }
+
+    #exp_block_5 {
+        grid-column: 5;
+        grid-row: 18;
+    }
+
+    #exp_block_6 {
+        grid-column: 21;
+        grid-row: 19;
+    }
+
+    #exp_block_7 {
+        grid-column: 4;
+        grid-row: 27;
+    }
+
+    #exp_block_8 {
+        grid-column: 21;
+        grid-row: 28;
+    }
+
+    #exp_block_9 {
+        grid-column: 12;
+        grid-row: 37;
+    }
 }
