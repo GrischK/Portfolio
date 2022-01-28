@@ -174,13 +174,12 @@ main{
     max-width: 100%;
     margin-top: 50px;
     margin-bottom: 50px;
+    position: relative;
 }
 
 #top_pic img{
     max-width: 100%;
-    margin-top: 50px;
     margin-bottom: 50px;
-    position: relative;
 }
 
 #top_pic_back{
@@ -190,12 +189,12 @@ main{
     height: 734px;
     position: absolute;
     opacity: 0;
-    top: 663px;
     transition: opacity 0.5s ease;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    top:0px;
 }
 
 #top_pic_back_p{
@@ -964,12 +963,16 @@ footer a:hover{
 
 @media screen and (max-width: 1046px){
     body{
-        background-color: green;
+        background-color: white;
     }
     
     .main_grid_container{
         grid-template-columns: repeat(1, 1fr);
         margin: 0px auto;
+    }
+
+    #welcome_article {
+        flex-direction: column;
     }
 
     .grid_block{
@@ -989,5 +992,23 @@ footer a:hover{
     #icons_block {
         flex-direction: column;
         align-items: center;
+    }
+
+    #presentation_block{
+        align-items: center;
+    }
+
+    #top_pic_back{
+        display: none;
+    }
+
+    #contact_article{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #contact_article img{
+        width: 300px;
+        height: 300px;
     }
 }
