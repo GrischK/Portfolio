@@ -710,7 +710,14 @@ footer a:hover{
     border-radius: 20px;
 }
 
-.skills_bar:nth-child(8) .progress{
+/*.skills_bar:nth-child(8) .progress{
+    width: 70%;
+    background-color: #D8DCFF;
+    animation: marketing_progress_fill 2s forwards;
+}
+*/
+
+.progress7.scroll7{
     width: 70%;
     background-color: #D8DCFF;
     animation: marketing_progress_fill 2s forwards;
@@ -726,7 +733,14 @@ footer a:hover{
     }
 }
 
-.skills_bar:nth-child(7) .progress{
+/*.skills_bar:nth-child(7) .progress{
+    width: 75%;
+    background-color: #52489C;
+    animation: gestionadministrative_progress_fill 2s forwards;
+}
+*/
+
+.progress6.scroll6{
     width: 75%;
     background-color: #52489C;
     animation: gestionadministrative_progress_fill 2s forwards;
@@ -742,7 +756,14 @@ footer a:hover{
     }
 }
 
-.skills_bar:nth-child(6) .progress{
+/*.skills_bar:nth-child(6) .progress{
+    width: 90%;
+    background-color: #124E78;
+    animation: relationclients_progress_fill 2s forwards;
+}
+*/
+
+.progress5.scroll5{
     width: 90%;
     background-color: #124E78;
     animation: relationclients_progress_fill 2s forwards;
@@ -758,7 +779,14 @@ footer a:hover{
     }
 }
 
-.skills_bar:nth-child(5) .progress{
+/*.skills_bar:nth-child(5) .progress{
+    width: 80%;
+    background-color: #3C91E6;
+    animation: ventes_progress_fill 2s forwards;
+}
+*/
+
+.progress4.scroll4{
     width: 80%;
     background-color: #3C91E6;
     animation: ventes_progress_fill 2s forwards;
@@ -774,7 +802,13 @@ footer a:hover{
     }
 }
 
-.skills_bar:nth-child(4) .progress{
+/*.skills_bar:nth-child(4) .progress{
+    width: 60%;
+    background-color: #44AF69;
+    animation: gestiondeprojet_progress_fill 2s forwards;
+}*/
+
+.progress3.scroll3{
     width: 60%;
     background-color: #44AF69;
     animation: gestiondeprojet_progress_fill 2s forwards;
@@ -790,8 +824,15 @@ footer a:hover{
     }
 }
 
-.skills_bar:nth-child(3) .progress{
+/*.skills_bar:nth-child(3) .progress{
     width: 5%;
+    background-color: #F2BB05;
+    animation: javascript_progress_fill 2s forwards;
+}
+*/
+
+.progress2.scroll2{
+    width:20%;
     background-color: #F2BB05;
     animation: javascript_progress_fill 2s forwards;
 }
@@ -802,11 +843,18 @@ footer a:hover{
     }
 
     100%{
-        width: 5%;
+        width: 20%;
     }
 }
-
+/*
 .skills_bar:nth-child(2) .progress{
+    width: 60%;
+    background-color: #fc8e10;
+    animation: css_progress_fill 2s forwards;
+}
+*/
+
+.progress1.scroll1{
     width: 60%;
     background-color: #fc8e10;
     animation: css_progress_fill 2s forwards;
@@ -822,11 +870,19 @@ footer a:hover{
     }
 }
 
-.skills_bar:nth-child(1) .progress{
+
+.progress.scroll{
     width: 80%;
     background-color: #F8333C;
     animation: html_progress_fill 2s forwards;
 }
+
+/*
+.skills_bar:nth-child(1) .progress{
+    width: 80%;
+    background-color: #F8333C;
+    animation: html_progress_fill 2s forwards;
+}*/
 
 @keyframes html_progress_fill {
     0%{
