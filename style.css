@@ -15,6 +15,11 @@ nav{
     justify-content: space-between;
 }
 
+#nav_buttons li{
+    width: 60px;
+    text-align: center;
+}
+
 em{
     font-style: normal;
     color: #124E78;
@@ -133,6 +138,7 @@ blockquote{
 #icons_block{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 #formation_pic{
@@ -1041,6 +1047,10 @@ footer a:hover{
     opacity: 1;
 }
 */
+
+#mes_projets{
+    margin-top: 100px;
+}
 
 @media screen and (max-width: 1148px){
     body{
