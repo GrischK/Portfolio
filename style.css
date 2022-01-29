@@ -1001,6 +1001,27 @@ footer a:hover{
     font-size: 14px;
 }
 
+/*.transition-1{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.5s ease-out;
+}
+
+.transition-1.is-active{
+    opacity: 1;
+    pointer-events: all;
+}
+*/
+
 @media screen and (max-width: 1148px){
     body{
         background-color: red;
