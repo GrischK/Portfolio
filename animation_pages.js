@@ -3,5 +3,8 @@
 
     setTimeout(() => {
         transition_el.classList.remove('.is-active');
-    }, 500);
-}*/
+    }, 50);
+}
+
+console.log ('hello');
+*/
