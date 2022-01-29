@@ -1,10 +1,9 @@
-/*window.onload = () => {
+window.onload = () => {
     const transition_el = document.querySelector('.transition');
 
     setTimeout(() => {
-        transition_el.classList.remove('.is-active');
+        transition_el.classList.remove('is-active');
     }, 50);
 }
 
 console.log ('hello');
-*/
