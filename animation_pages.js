@@ -3,7 +3,7 @@ window.onload = () => {
 
     setTimeout(() => {
         transition_el.classList.remove('is-active');
-    }, 50);
+    }, 100);
 }
 
 let diploma_btn = document.querySelectorAll('.diploma_block');
