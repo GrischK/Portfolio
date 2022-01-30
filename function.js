@@ -4,8 +4,6 @@ window.addEventListener('scroll',() => {
 });
 */
 
-const nav = document.querySelector('.progress');
-
 window.onload = () => {
   const transition_el = document.querySelector('.transition');
 
@@ -13,6 +11,8 @@ window.onload = () => {
       transition_el.classList.remove('.is-active');
   }, 500);
 }
+
+const nav = document.querySelector('.progress');
 
 window.addEventListener('scroll',() =>{
   if(window.scrollY>1400) {
