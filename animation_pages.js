@@ -3,7 +3,7 @@ window.onload = () => {
 
     setTimeout(() => {
         transition_el.classList.remove('is-active');
-    }, 100);
+    }, 500);
 }
 
 let diploma_btn = document.querySelectorAll('.diploma_block');
@@ -13,14 +13,13 @@ let diploma_btn = document.querySelectorAll('.diploma_block');
         TweenMax.staggerFrom(diploma_btn, 2, {scale: 0.5, opacity: 0, delay: 0.5, ease: Elastic.easeOut}, 0.2)
     })
 
-    /* ESSAI D'APPARITION AU SCROLL 3400
+        /*ESSAI D'APPARITION AU SCROLL 3400
     let diploma_btn = document.querySelectorAll('.diploma_block');
 
     window.addEventListener('scroll',() =>{
         if(window.scrollY>3400) {
-        TweenMax.staggerFrom(diploma_btn, 2, {scale: 0.5, opacity: 0, delay: 0.5, ease: Elastic.easeOut}, 0.2)}
-    });
-    */
+            TweenMax.staggerFrom(diploma_btn, 2, {scale: 0.5, opacity: 0, delay: 0.5, ease: Elastic.easeOut}, 0.2)}
+    });*/
 
 console.log ('hello');
 
