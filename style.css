@@ -1250,6 +1250,26 @@ footer a:hover{
     }
 }
 
+@media screen and (max-width: 1040px){
+    #top_pic img {
+        margin-top: 600px;
+    }
+
+    #presentation_block{
+        height: 830px;
+        width: 100%;
+        margin-top: 359px;
+    }
+
+    .main_grid_container {
+        width: 80%;
+    }
+
+    .grid_p {
+        height: auto;
+    }
+}
+
 @media screen and (max-width: 750px){
     h3{
         font-size: 35px;
