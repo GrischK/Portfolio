@@ -1298,7 +1298,7 @@ footer a:hover{
 
 @media screen and (max-width: 1040px){
     #top_pic img {
-        margin-top: 600px;
+        margin-top: 650px;
     }
 
     #presentation_block{
@@ -1486,6 +1486,24 @@ footer a:hover{
 @media screen and (max-width: 440px){
     #top_pic{
         margin-top: 470px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #top_pic{
+        margin-top: 120%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    #top_pic{
+        margin-top: 140%;
+    }
+}
+
+@media screen and (max-width: 415px){
+    #top_pic{
+        margin-top: 160%;
     }
 }
 
