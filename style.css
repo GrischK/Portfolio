@@ -1318,6 +1318,10 @@ footer a:hover{
         margin-top: 100px;
 }
 
+    #welcome_pic{
+        right: 110px;
+    }
+
 @media screen and (max-width: 600px){
-    
+
 }
