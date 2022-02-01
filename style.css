@@ -1194,9 +1194,6 @@ footer a:hover{
         grid-column: 12;
         grid-row: 37;
     }
-}
-
-@media screen and (max-width: 1046px){
 
     #presentation_block_page_details{
         margin: 0 auto;
@@ -1241,5 +1238,61 @@ footer a:hover{
 
     .hidden_li{
         display: none;
+    }
+
+    #nav_buttons {
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    header{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 750px){
+    h3{
+        font-size: 35px;
+    }
+
+    #presentation_block{
+        height: 400px;
+        margin-top: 380px;
+        width: 100%;
+    }
+
+    blockquote{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #top_pic{
+        margin-top: 840px;
+    }
+
+    .main_grid_container {
+        width: 80%;
+    }
+
+    .grid_p{
+        height: auto;
+    }
+
+    #contactform input{
+        width: 100%;
+        height: 35px;
+    }
+
+    #contactform textarea{
+        width: 100%;
+        height: 300px;
+    }
+
+    #contactform{
+        font-size: 35px;
+    }
+
+    #button{
+        font-size: 25px;
     }
 }
