@@ -1054,6 +1054,11 @@ footer a:hover{
 #mes_projets{
     margin-top: 100px;
 }
+@media screen and (max-width: 1360px){
+    #presentation_block {
+        width: 600px;
+    }
+}
 
 @media screen and (max-width: 1148px){
     body{
@@ -1094,6 +1099,12 @@ footer a:hover{
 
     #gestion_admin{
         text-align: start;
+    }
+}
+
+@media screen and (max-width: 1360px){
+    #presentation_block {
+        width: 500px;
     }
 }
 
@@ -1270,6 +1281,12 @@ footer a:hover{
     }
 }
 
+@media screen and (max-width: 763px){
+    #top_pic{
+        margin-top: 200px;
+    }
+}
+
 @media screen and (max-width: 750px){
     h3{
         font-size: 35px;
@@ -1287,7 +1304,7 @@ footer a:hover{
     }
 
     #top_pic{
-        margin-top: 840px;
+        margin-top: 200px;
     }
 
     .main_grid_container {
@@ -1324,6 +1341,12 @@ footer a:hover{
     }
 }
 
+@media screen and (max-width: 656px){
+    #top_pic{
+        margin-top: 280px;
+    }
+}
+
 @media screen and (max-width: 635px){
     #nav_buttons {
         width: 75%;
@@ -1334,8 +1357,8 @@ footer a:hover{
         height: 80px;
     }
 
-    #top_pic img {
-        margin-top: 100px;
+    #top_pic{
+        margin-top: 280px;
     }
 
     #welcome_pic{
@@ -1357,3 +1380,22 @@ footer a:hover{
         padding: 0px;
     }
 }
+
+@media screen and (max-width: 556px){
+    #top_pic{
+        margin-top: 350px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    #top_pic{
+        margin-top: 420px;
+    }
+}
+
+@media screen and (max-width: 440px){
+    #top_pic{
+        margin-top: 470px;
+    }
+}
+
