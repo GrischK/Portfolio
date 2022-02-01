@@ -1316,12 +1316,24 @@ footer a:hover{
 
     #top_pic img {
         margin-top: 100px;
-}
+    }
 
     #welcome_pic{
         right: 110px;
     }
+}
 
 @media screen and (max-width: 600px){
+    #logo{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
 
+    #nav_buttons{
+        width: 100%;
+        position: absolute;
+        top: 74px;
+        padding: 0px;
+    }
 }
