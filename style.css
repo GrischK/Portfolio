@@ -1259,6 +1259,36 @@ footer a:hover{
     header{
         width: 100%;
     }
+
+    #diploma_block{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .diploma_block{
+        width: 200px;
+        height: 200px;
+        font-size: 10px;
+        font-size: 27px;
+        margin-bottom: 30px;
+    }
+
+    #passions_section ul{
+        flex-direction: column;
+    }
+
+    #passions_section li{
+        margin-bottom: 30px;
+    }
+
+    #run{
+        margin-top: 0px;
+    }
+
+    #book_pic{
+        margin-top: -10px;
+    }
 }
 
 @media screen and (max-width: 1040px){
