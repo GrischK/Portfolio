@@ -82,7 +82,7 @@ a{
 }
 
 #presentation_block{
-    height: 200px;
+    height: fit-content;
     width: 700px;
     justify-content: start;
     display: flex;
@@ -123,7 +123,8 @@ blockquote{
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    height: 400px;
+    height: fit-content;
+    margin-bottom: 100px;
 }
 
 #presentation_block h1{
@@ -1297,12 +1298,7 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1040px){
-    #top_pic img {
-        margin-top: 650px;
-    }
-
     #presentation_block{
-        height: 830px;
         width: 100%;
         margin-top: 359px;
     }
@@ -1371,21 +1367,15 @@ footer a:hover{
       }
 }
 
-@media screen and (max-width: 763px){
-    #top_pic{
-        margin-top: 200px;
-    }
-}
-
 @media screen and (max-width: 750px){
     h3{
         font-size: 35px;
     }
 
     #presentation_block{
-        height: 400px;
         margin-top: 380px;
         width: 100%;
+        margin-bottom: 50px;
     }
 
     blockquote{
@@ -1394,7 +1384,7 @@ footer a:hover{
     }
 
     #top_pic{
-        margin-top: 200px;
+        margin-top: 0px;
     }
 
     .main_grid_container {
@@ -1431,12 +1421,6 @@ footer a:hover{
     }
 }
 
-@media screen and (max-width: 656px){
-    #top_pic{
-        margin-top: 280px;
-    }
-}
-
 @media screen and (max-width: 635px){
     #nav_buttons {
         width: 75%;
@@ -1445,10 +1429,6 @@ footer a:hover{
 
     #logo {
         height: 80px;
-    }
-
-    #top_pic{
-        margin-top: 280px;
     }
 
     #welcome_pic{
@@ -1470,40 +1450,3 @@ footer a:hover{
         padding: 0px;
     }
 }
-
-@media screen and (max-width: 556px){
-    #top_pic{
-        margin-top: 350px;
-    }
-}
-
-@media screen and (max-width: 440px){
-    #top_pic{
-        margin-top: 420px;
-    }
-}
-
-@media screen and (max-width: 440px){
-    #top_pic{
-        margin-top: 470px;
-    }
-}
-
-@media screen and (max-width: 425px){
-    #top_pic{
-        margin-top: 120%;
-    }
-}
-
-@media screen and (max-width: 415px){
-    #top_pic{
-        margin-top: 140%;
-    }
-}
-
-@media screen and (max-width: 415px){
-    #top_pic{
-        margin-top: 160%;
-    }
-}
-
