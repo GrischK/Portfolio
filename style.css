@@ -1298,6 +1298,11 @@ footer a:hover{
 }
 
 @media screen and (max-width: 1040px){
+    #experiences {
+        width: 80%;
+        margin: 100px auto;
+    }
+
     #presentation_block{
         width: 100%;
         margin-top: 359px;
@@ -1312,10 +1317,20 @@ footer a:hover{
     }
 }
 
+@media screen and (max-width: 932px){
+    #gestion_admin {
+        text-align: end;
+      }
+}
+
 @media screen and (max-width: 850px){
     #experience_grid{
         grid-template-rows: repeat(80, 25px);
         grid-template-columns: repeat(32, 25px);
+    }
+
+    #experiences {
+        width: 100%;
     }
 
     #exp_block_1 {
