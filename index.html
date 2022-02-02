@@ -302,9 +302,13 @@
           <script src="formulaire.js"></script>
 
           <script>
+              if (window.matchMedia("(min-width: 600px)").matches) {
               var controller = new ScrollMagic.Controller();
 
               var tween = TweenMax.from("#welcome_pic", 2, {right: -700, rotation: 50, ease: Power2.easeInOut})
+              }else{
+
+              }
           </script>
     </body>
 </html>
