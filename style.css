@@ -1474,5 +1474,68 @@ footer a:hover{
     #welcome_pic{
         right: 45px;
     }
+
+    .skills_icons {
+        width: 100%;
+    }
+
+    .skills_icons ul {
+        width: 25%;
+        margin: 0px;
+        align-items: start;
+    }
+
+    .skills_icons li {
+        font-size: 20px;
+    }    
+
+    #gestion_admin {
+        text-align: start;
+      }
+
+    .bar_container {
+        width: 75%;
+        margin-left: 30px;
+    }
+
+    .skills_bar {
+        width: 90%;
+    }
+
+    #exp_block_1 {
+        grid-column: 4;
+    }
+
+    #exp_block_2 {
+        grid-column: 3;
+    }
+
+    #exp_block_3 {
+        grid-column: 3;
+    }
+
+    #exp_block_4 {
+        grid-column: 4;
+    }
+
+    #exp_block_5 {
+        grid-column: 5;
+    }
+
+    #exp_block_6 {
+        grid-column: 4;
+    }
+
+    #exp_block_7 {
+        grid-column: 4;
+    }
+
+    #exp_block_8 {
+        grid-column: 4;
+    }
+
+    #exp_block_9 {
+        grid-column: 5;
+    }
 }
 
