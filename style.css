@@ -1465,3 +1465,14 @@ footer a:hover{
         padding: 0px;
     }
 }
+
+@media screen and (max-width: 464px){
+    #nav_buttons li{
+        font-size: 20px;
+    }
+
+    #welcome_pic{
+        right: 45px;
+    }
+}
+
