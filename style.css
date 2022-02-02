@@ -1452,6 +1452,12 @@ footer a:hover{
 }
 
 @media screen and (max-width: 600px){
+    nav #lien_logo{
+        position: relative;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
     #logo{
         position: relative;
         left: 50%;
