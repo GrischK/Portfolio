@@ -217,7 +217,7 @@ main{
     top:0px;
 }
 
-#top_pic_back_p{
+.top_pic_back_p{
     font-size: 20px;
     height: 100px;
     width: 300px;

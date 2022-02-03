@@ -4,7 +4,7 @@
         <meta charset="UTF-8"/>
         <title>Chapka développement Web</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
         <link href="style.css" rel="stylesheet" type="text/css"/>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -53,13 +53,13 @@
             <div id="top_pic">
                <img src="img/dev_desk.jpg" alt="desktop">
                <div id="top_pic_back">
-                    <p id="top_pic_back_p">
+                    <p class="top_pic_back_p">
                         Curiosité,
                     </p>
-                    <p id="top_pic_back_p">
+                    <p class="top_pic_back_p">
                         Polyvalence,
                     </p>                    
-                    <p id="top_pic_back_p">
+                    <p class="top_pic_back_p">
                         Adaptabilité...
                     </p>
                </div>
@@ -236,31 +236,31 @@
             <article id="contact_article">
                 <img src="img/home_page_pic_circle.png" alt="photo_grischka" id="contact_pic">
                 <div id="contact_pic_back"><img src="img/chapka_canada.png" alt="chapka"></div>
-            <!--<section>
-                <div class="carrousel">
-                    <button class="prev">&#8656;</button>
-                    <button class="next">&#8658;</button>
-                     <ul>
-                         <li class="slide" data-active>
-                            <img src="img/home_page_pic_circle.png" alt="photo_grischka" class="grischa_chapka">
-                         </li>
-                         <li class="slide">
-                            <img src="img/chapka_canada.png" alt="chapka" class="grischa_chapka">
-                         </li>
-                         <li class="slide">
-                            <img src="img/home_page_pic_circle.png" alt="photo_grischka" class="grischa_chapka">
-                         </li>
-                         <li class="slide">
-                            <img src="img/chapka_canada.png" alt="chapka" class="grischa_chapka">
-                         </li>
-                     </ul>
-                </div>
-            </section>-->
+                <!--<section>
+                    <div class="carrousel">
+                        <button class="prev">&#8656;</button>
+                        <button class="next">&#8658;</button>
+                        <ul>
+                            <li class="slide" data-active>
+                                <img src="img/home_page_pic_circle.png" alt="photo_grischka" class="grischa_chapka">
+                            </li>
+                            <li class="slide">
+                                <img src="img/chapka_canada.png" alt="chapka" class="grischa_chapka">
+                            </li>
+                            <li class="slide">
+                                <img src="img/home_page_pic_circle.png" alt="photo_grischka" class="grischa_chapka">
+                            </li>
+                            <li class="slide">
+                                <img src="img/chapka_canada.png" alt="chapka" class="grischa_chapka">
+                            </li>
+                        </ul>
+                    </div>
+                </section>-->
                 <section id="contact">
                     <h2>
                         Contactez-moi
                     </h2>
-                        <form id="contactform" action="" method="POST">
+                        <form id="contactform" method="POST">
                             <label for="name">Nom prénom:</label><br />
                             <input type="text" id="name" name="name" required="required"/><br />
                             <label for="email">Adresse e-mail :</label><br />
@@ -295,7 +295,7 @@
             </footer>
         </main>   
           <script src="animation_pages.js"></script>
-          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/debug.addIndicators.min.js"></script>
           <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/plugins/animation.gsap.js"></script>
