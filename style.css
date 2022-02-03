@@ -1213,7 +1213,7 @@ footer a:hover{
     }
 
     p, blockquote, li{
-        font-size: 35px;
+        font-size: 24px;
         text-align: center;
     }
 
@@ -1544,5 +1544,13 @@ footer a:hover{
     #exp_block_9 {
         grid-column: 5;
     }
+
+    label{
+        text-align: center;
+    }
+
+    #welcome_pic {
+        right: 0px;
+      }
 }
 
