@@ -1,11 +1,11 @@
+html{
+    overflow-x: hidden;
+}
+
 body{
     background-color:white;
     margin: 0px;
     overflow-x: hidden;
-}
-
-#id_block{
-    overflow: hidden;
 }
 
 header{
