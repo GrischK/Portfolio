@@ -4,6 +4,10 @@ body{
     overflow-x: hidden;
 }
 
+#id_block{
+    overflow: hidden;
+}
+
 header{
     width: 75%;
     margin: 0 auto 50px;
