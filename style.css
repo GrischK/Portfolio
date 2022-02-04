@@ -1165,6 +1165,10 @@ footer a:hover{
     #presentation_block {
         width: 600px;
     }
+
+    #contact_pic_back {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1148px){
