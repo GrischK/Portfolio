@@ -181,7 +181,7 @@ max-height: 100%;
     width: 270px;   
 }
 
-#experience_pic img{
+.experience_pic img{
     height: 200px;
     transform: rotateY(180deg);
 }
@@ -1031,6 +1031,24 @@ footer a:hover{
      }
 }
 */
+ .experience_pic{
+    opacity: 0;
+}
+
+.slide-right {
+    opacity: 1;
+    animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+    
+@keyframes slide-right {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(15px);
+    }
+}
+      
 
 .exp_block_hover{
     transition: transform 1.5s;

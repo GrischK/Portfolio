@@ -21,5 +21,14 @@ let diploma_btn = document.querySelectorAll('.diploma_block');
             TweenMax.staggerFrom(diploma_btn, 2, {scale: 0.5, opacity: 0, delay: 0.5, ease: Elastic.easeOut}, 0.2)}
     });*/
 
+const xp_pic = document.querySelector('.experience_pic');
+
+window.addEventListener('scroll',() =>{
+    if(window.scrollY>1400) {
+        xp_pic.classList.add('slide-right')
+    }
+});
+    
+
 console.log ('hello');
 
