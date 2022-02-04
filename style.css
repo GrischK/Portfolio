@@ -312,6 +312,7 @@ footer p{
     left:701px;
     opacity:0;
     transition: opacity 0.5s ease;
+    cursor: pointer;
 }
 
 #contact_pic_back img{
@@ -706,6 +707,7 @@ footer a:hover{
     text-align: center;
     opacity: 0;
     transition: opacity 0.5s ease;
+    cursor: pointer;
 }
 
 #hidden_ul{
