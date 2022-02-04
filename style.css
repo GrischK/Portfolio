@@ -1544,6 +1544,16 @@ footer a:hover{
         width: 80%;
         justify-content: inherit;
     }
+
+    #contactform input, #contactform textarea {
+        width: 95%;
+        margin: 10px auto 5px;
+        }
+    
+    #contactform #button{
+        width:50%;
+    }
+
 }
 
 @media screen and (max-width: 635px){
@@ -1558,6 +1568,15 @@ footer a:hover{
 
     #welcome_pic{
         right: 110px;
+    }
+
+    #contactform input, #contactform textarea {
+        width: 95%;
+        margin: 10px auto 5px;
+        }
+    
+    #contactform #button{
+        width:50%;
     }
 }
 
@@ -1579,6 +1598,15 @@ footer a:hover{
         position: absolute;
         top: 74px;
         padding: 0px;
+    }
+
+    #contactform input, #contactform textarea {
+        width: 95%;
+        margin: 10px auto 5px;
+        }
+    
+    #contactform #button{
+        width:50%;
     }
 }
 
