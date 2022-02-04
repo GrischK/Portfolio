@@ -343,10 +343,12 @@ footer p{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    border-radius: 7px;
 }
 
 .desk_pic{
     width: 100%;
+    border-radius: 7px;
 }
 
 .grid_block p{
@@ -383,6 +385,7 @@ input, textarea{
     box-shadow: 1px 1px 1px #F2BB05;
     width: 300px;
     font-family: 'Lato', sans-serif;
+    border-radius: 7px;
 }
 
 textarea{
@@ -1634,5 +1637,14 @@ footer a:hover{
     #welcome_pic {
         right: 0px;
       }
+
+    #contactform input, #contactform textarea {
+    width: 95%;
+    margin: 10px auto 5px;
+    }
+
+    #contactform #button{
+        width:50%;
+    }
 }
 
