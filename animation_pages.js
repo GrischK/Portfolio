@@ -28,6 +28,22 @@ window.addEventListener('scroll',() =>{
         xp_pic.classList.add('slide-right')
     }
 });
+
+const formation_pic = document.getSelector('.formation_pic');
+
+window.addEventListener('scroll',() =>{
+    if(window.scrollY>1400) {
+        formation_pic.classList.add('slide-top')
+    }
+});
+
+const skills_pic = document.querySelector('.skills_pic');
+
+window.addEventListener('scroll',() =>{
+    if(window.scrollY>1400) {
+        skills_pic.classList.add('slide-left')
+    }
+});
     
 
 console.log ('hello');
