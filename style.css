@@ -1112,6 +1112,29 @@ footer a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-shrink: 0;
+}
+/*à enlever la taille pour le responsive*/
+.grid_h3 img{
+    height: 300px;
+    max-width: 500px;
+    object-fit: contain;
+}
+
+.rocket{
+    transform: rotate(45deg);
+}
+
+.screen{
+    transform : scale(0.8);
+}
+
+.build{
+    transform : scale(0.8);
+}
+
+.pad{
+    transform: rotate(8deg) scale(0.6);
 }
 
 .grid_p {
