@@ -29,7 +29,7 @@ window.addEventListener('scroll',() =>{
     }
 });
 
-const formation_pic = document.getSelector('.formation_pic');
+const formation_pic = document.querySelector('.formation_pic');
 
 window.addEventListener('scroll',() =>{
     if(window.scrollY>1400) {
