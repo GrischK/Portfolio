@@ -1055,6 +1055,7 @@ footer a:hover {
 .slide-left {
     opacity: 1;
 	animation: slide-left 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-delay: 0.5s;
 }
 
 @keyframes slide-left {
@@ -1069,6 +1070,7 @@ footer a:hover {
 .slide-top {
     opacity: 1;
 	animation: slide-top 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation-delay: 1s;
 }
 
  @keyframes slide-top {
